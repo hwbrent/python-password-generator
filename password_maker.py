@@ -12,7 +12,6 @@ while True:
     except:
         print("Please enter a NUMBER")
         continue
-    
 
 def letter_picker():
     index = random.randrange(0,len(alphabet)-1)
